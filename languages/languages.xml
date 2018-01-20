@@ -1,41 +1,156 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
     <!--TITLE-->
-    <titleh1>
+    <titleH1>
         <en>I'm Davi Cunha</en>
         <pt-br>Eu sou Davi Cunha</pt-br>
-    </titleh1>
-    <titleh2>
+    </titleH1>
+    <titleH2>
         <en>Hello, World.</en>
         <pt-br>Olá, Mundo.</pt-br>
-    </titleh2>
-    <titleh3one>
+    </titleH2>
+    <titleH3One>
         <en>Tech-Enthusiast</en>
         <pt-br>Entusiasta de Tecnologia</pt-br>
-    </titleh3one>
-    <titleh3two>
+    </titleH3One>
+    <titleH3Two>
         <en>Full Stack Developer</en>
         <pt-br>Desenvolvedor Full Stack</pt-br>
-    </titleh3two>
-    <titleh3three>
+    </titleH3Two>
+    <titleH3Three>
         <en>Entrepreneur</en>
         <pt-br>Empreendedor</pt-br>
-    </titleh3three>
-    <titleh3four>
+    </titleH3Three>
+    <titleH3Four>
         <en>Music Lover</en>
         <pt-br>Amante de Música</pt-br>
-    </titleh3four>
-    <titlea>
+    </titleH3Four>
+    <titleA>
         <en>More about me</en>
         <pt-br>Mais sobre mim</pt-br>
-    </titlea>
+    </titleA>
 
     <!--ABOUT-->
-    <abouth3>
+    <aboutHeaderH3>
         <en>About</en>
         <pt-br>Sobre</pt-br>
-    </abouth3>
+    </aboutHeaderH3>
+    <aboutHeaderH2>
+        <en>Let me introduce myself.</en>
+        <pt-br>Permita-me me apresentar.</pt-br>
+    </aboutHeaderH2>
+    <aboutParagraph>
+        <en>I was a brazilian kid from early 2000's. I grow up in a not that friendly hood to a kid to play at the
+            street. So, as expected, I grow up playing video games with my old friends and trying to learn something
+            about computers, that's where my passion for technology came from.
+            I started to learn programming languages at 12 and when i was 15 years old i was full capable to work as
+            little freelancer programmer, doing little jobs just for fun.
+        </en>
+        <pt-br>
+            Eu fui um criança brasileira dos anos 2000. Eu cresci numa vizinhança não muito amigável para uma criança
+            brincar na rua. Então, como esperado, eu cresci jogando video games com meu velhos amigos e tentando
+            aprender alguma coisa sobre computadores, daí que veio minha paixão por tecnologia.
+            Eu comecei a aprender linguagens de programação aos 12 anos, e aos 15 anos de idade já era completamente
+            capaz de trabalhar como um pequeno programador freelancer, fazendo trabalhos apenas por diversão.
+        </pt-br>
+    </aboutParagraph>
 
+    <!--ABOUT CONTAINER INFO STRONG-->
+    <profileContainerStrongOne>
+        <en>Profile</en>
+        <pt-br>Perfil</pt-br>
+    </profileContainerStrongOne>
+    <profileContainerStrongTwo>
+        <en>Full Name:</en>
+        <pt-br>Nome Completo:</pt-br>
+    </profileContainerStrongTwo>
+    <profileContainerStrongThree>
+        <en>Birth Date:</en>
+        <pt-br>Data de Nascimento:</pt-br>
+    </profileContainerStrongThree>
+    <profileContainerStrongFour>
+        <en>Job:</en>
+        <pt-br>Trabalho:</pt-br>
+    </profileContainerStrongFour>
+    <profileContainerStrongFive>
+        <en>Website:</en>
+        <pt-br>Website:</pt-br>
+    </profileContainerStrongFive>
+    <profileContainerStrongSix>
+        <en>E-mail:</en>
+        <pt-br>E-mail:</pt-br>
+    </profileContainerStrongSix>
+    <profileContainerStrongSeven>
+        <en>Languages:</en>
+        <pt-br>Línguas:</pt-br>
+    </profileContainerStrongSeven>
 
+    <!--ABOUT CONTAINER INFO SPAN-->
+    <profileContainerSpanOne>
+        <en>Here is a few things about me.</en>
+        <pt-br>Aqui está algumas coisas sobre mim.</pt-br>
+    </profileContainerSpanOne>
+    <profileContainerSpanTwo>
+        <en>Davi Cunha Silva</en>
+        <pt-br>Davi Cunha Silva</pt-br>
+    </profileContainerSpanTwo>
+    <profileContainerSpanThree>
+        <en>October 19, 1996</en>
+        <pt-br>19 de Outubro de 1996</pt-br>
+    </profileContainerSpanThree>
+    <profileContainerSpanFour>
+        <en>Freelancer, Website Designer, Web Developer, Back-End Developer, Front-End Developer, Video Editor</en>
+        <pt-br>Freelancer, Web Designer, Desenvolvendor Bavk-End, Desenvolvedor Front-End, Editor de Vídeo</pt-br>
+    </profileContainerSpanFour>
+    <profileContainerSpanFive>
+        <en>davicunhasilva.me</en>
+        <pt-br>davicunhasilva.me</pt-br>
+    </profileContainerSpanFive>
+    <profileContainerSpanSix>
+        <en>davipccunhasilva@hotmail.com</en>
+        <pt-br>davipccunhasilva@hotmail.com</pt-br>
+    </profileContainerSpanSix>
+    <profileContainerSpanSeven>
+        <en>English, Portuguese, French</en>
+        <pt-br>Inglês, Português, Feancês</pt-br>
+    </profileContainerSpanSeven>
+
+    <!--ABOUT CONTAINER SKILL STRONG-->
+    <profileContainerSkillsStrong>
+        <en>Skills</en>
+        <pt-br>Habilidades</pt-br>
+    </profileContainerSkillsStrong>
+
+    <!--ABOUT CONTAINER SKILL P-->
+    <profileContainerSkillsP>
+        <en>Programing languages I known.</en>
+        <pt-br>Linguagens de Programação que conheço.</pt-br>
+    </profileContainerSkillsP>
+
+    <!--ABOUT HIRE ME-->
+    <hireme>
+        <en>Hire me</en>
+        <pt-br>Me Contrate</pt-br>
+    </hireme>
+
+    <!--ABOUT DOWNLOAD CV-->
+    <downloadCV>
+        <en>Download CV</en>
+        <pt-br>Baixar Currículo</pt-br>
+    </downloadCV>
+
+    <!--RESUME HEADER-->
+   <resumeHeaderH3>
+       <en>Resume</en>
+       <pt-br>Resumo</pt-br>
+   </resumeHeaderH3>
+    <resumeHeaderH1>
+        <en>More of my credentials.</en>
+        <pt-br>Mais dos meus hitóricos.</pt-br>
+    </resumeHeaderH1>
+    <resumeHeaderP>
+        <en>My education and work experiences.</en>
+        <pt-br>Minha educação e experiencia de trabalho.</pt-br>
+    </resumeHeaderP>
 
 </root>

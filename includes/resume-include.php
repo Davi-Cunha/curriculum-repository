@@ -6,9 +6,9 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="resume-header">
-                        <h3>Resume</h3>
-                        <h1>More of my credentials.</h1>
-                        <p>My education and work experiences.</p>
+                        <h3><?php echo $resumeHeaderH3?></h3>
+                        <h1><?php echo $resumeHeaderH1?></h1>
+                        <p><?php echo $resumeHeaderP?></p>
                     </div>
                 </div>
 

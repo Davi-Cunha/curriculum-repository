@@ -5,19 +5,15 @@
         <div class="container">
             <div class="row">
                 <header class="col-md-12 text-center about-header">
-                    <h3>About</h3>
-                    <h2>Let me introduce myself.</h2>
+                    <h3><?php echo $aboutHeaderH3?></h3>
+                    <h2><?php echo $aboutHeaderH2?></h2>
                 </header>
                 <div class="col-md-4">
                     <img class="profile-pic" src="img/profile-pic.png">
                 </div>
                 <div class="col-md-8">
                     <div class="about-me">
-                        <p>I was a Brazilian kid from early 2000's. I grow up in a not that friendly hood to a kid to
-                            play at the street. So, as expected, I grow up playing video games with my old friends and
-                            trying to learn something about computers, that's where my passion for technology came from.
-                            <br>I started to learning programming languages at 12 and when i was 15 years old i was full
-                            capable to work as little freelancer programmer, doing little jobs just for fun.</p>
+                        <p><?php echo $aboutParagraph?></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -25,8 +21,8 @@
                         <ul>
 
                             <?php
-                            $strong = array("Profile", "Fullname:", "Birth Date:", "Job:", "Website:", "E-mail:", "Languages:");
-                            $span = array("Here is a few things about me.", "Davi Cunha Silva", "October 19, 1996", "Freelancer, Website Designer, Web Developer, Back-End Developer, Front-End Developer, Video Editor", "davicunhasilva.me", "davipccunhasilva@hotmail.com", "English, Portuguese, French");
+                            $strong = array("$profileContainerStrongOne", "$profileContainerStrongTwo", "$profileContainerStrongThree", "$profileContainerStrongFour", "$profileContainerStrongFive", "$profileContainerStrongSix", "$profileContainerStrongSeven");
+                            $span = array("$profileContainerSpanOne.", "$profileContainerSpanTwo", "$profileContainerSpanThree", "$profileContainerSpanFour", "$profileContainerSpanFive", "$profileContainerSpanSix", "$profileContainerSpanSeven");
 
                             for ($i = 0; $i < count($strong); $i++) {
                                 if ($i == 0) {
@@ -58,7 +54,7 @@
                     <div class="skills-container">
                         <ul>
                             <?php
-                            $strong = array("Skills", "Android", "Java", "HTML5", "CSS", "Bootstrap", "PHP", "JavaScript", "Python", "C", "C++", "Go", "Linux");
+                            $strong = array("$profileContainerSkillsStrong", "Android", "Java", "HTML5", "CSS", "Bootstrap", "PHP", "JavaScript", "Python", "C", "C++", "Go", "Linux");
                             $progress_bar = array("android", "java", "html", "css", "bootstrap", "php", "javascript", "python", "c", "cplusplus", "go", "linux");
 
                             for ($i = 0, $j = 0; $i < count($strong); $i++) {
@@ -68,7 +64,7 @@
                                         <li>
                                             <strong>$strong[$i]</strong>
                                             <br>
-                                            <p>Programing languages I known.</p>
+                                            <p>$profileContainerSkillsP</p>
                                         </li>
                                     </header>";
                                 } else {
@@ -94,12 +90,12 @@
                     <div class="row text-center">
                         <div class="col-md-6">
                             <div class="hire-me">
-                                <a href="#">Hire me</a>
+                                <a href="#"><?php echo $hireme?></a>
                             </div>
                         </div>
                         <div class="cv col-md-6">
                             <div class="cv">
-                                <a href="../download/CirrículoDavi.docx" download="Davi's Curriculum">Download CV</a>
+                                <a href="../download/CirrículoDavi.docx" download="Davi's Curriculum"><?php echo $downloadCV?></a>
                             </div>
                         </div>
                     </div>

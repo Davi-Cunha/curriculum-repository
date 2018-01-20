@@ -10,12 +10,12 @@
                 </div>
                 <div class="col-md-12">
                     <div class="title text-center">
-                        <h2><?php echo $titleh2 ?></h2>
-                        <h1><?php echo $titleh1 ?></h1>
+                        <h2><?php echo $titleH2 ?></h2>
+                        <h1><?php echo $titleH1 ?></h1>
 
                         <div class="row">
                             <?php
-                            $positions = array("$titleh3one", "$titleh3two", "$titleh3three", "$titleh3four");
+                            $positions = array("$titleH3One", "$titleH3Two", "$titleH3Three", "$titleH3Four");
 
                             for ($i = 0; $i < count($positions); $i++) {
                                 echo "
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="col-md-12 text-center about-button-container">
-                    <a class="about-button" href="#"><?php echo $titlea; ?></a>
+                    <a class="about-button" href="#"><?php echo $titleA; ?></a>
                 </div>
 
 
