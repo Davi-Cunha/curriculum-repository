@@ -1,4 +1,4 @@
-<?php include("./includes/link-paths.php")?>
+<?php include("./includes/link-paths.php") ?>
 
 <section id="about">
     <div class="about-container">
@@ -13,8 +13,11 @@
                 </div>
                 <div class="col-md-8">
                     <div class="about-me">
-                        <p>I was a Brazilian kid from early 2000's. I grow up in a not that friendly hood to a kid to play at the street. So, as expected, I grow up playing video games with my old friends and trying to learn something about computers, that's where my passion for technology came from.
-                        <br>I started to learning programming languages at 12 and when i was 15 years old i was full capable to work as little freelancer programmer, doing little jobs just for fun.</p>
+                        <p>I was a Brazilian kid from early 2000's. I grow up in a not that friendly hood to a kid to
+                            play at the street. So, as expected, I grow up playing video games with my old friends and
+                            trying to learn something about computers, that's where my passion for technology came from.
+                            <br>I started to learning programming languages at 12 and when i was 15 years old i was full
+                            capable to work as little freelancer programmer, doing little jobs just for fun.</p>
                     </div>
                 </div>
                 <div class="col-md-6">

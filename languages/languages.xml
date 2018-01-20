@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
+    <!--TITLE-->
     <titleh1>
         <en>I'm Davi Cunha</en>
         <pt-br>Eu sou Davi Cunha</pt-br>
@@ -8,24 +9,33 @@
         <en>Hello, World.</en>
         <pt-br>Olá, Mundo.</pt-br>
     </titleh2>
-    <titleh3>
+    <titleh3one>
         <en>Tech-Enthusiast</en>
         <pt-br>Entusiasta de Tecnologia</pt-br>
-    </titleh3>
-    <titleh3>
+    </titleh3one>
+    <titleh3two>
         <en>Full Stack Developer</en>
         <pt-br>Desenvolvedor Full Stack</pt-br>
-    </titleh3>
-    <titleh3>
+    </titleh3two>
+    <titleh3three>
         <en>Entrepreneur</en>
         <pt-br>Empreendedor</pt-br>
-    </titleh3>
-    <titleh3>
+    </titleh3three>
+    <titleh3four>
         <en>Music Lover</en>
         <pt-br>Amante de Música</pt-br>
-    </titleh3>
+    </titleh3four>
     <titlea>
         <en>More about me</en>
         <pt-br>Mais sobre mim</pt-br>
     </titlea>
+
+    <!--ABOUT-->
+    <abouth3>
+        <en>About</en>
+        <pt-br>Sobre</pt-br>
+    </abouth3>
+
+
+
 </root>

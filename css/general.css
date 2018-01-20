@@ -33,6 +33,10 @@ p {
     padding: 200px 0 0 0;
 }
 
+.title-container .languages-change a {
+    padding: 5px;
+}
+
 .title-container h1,
 .title-container h2,
 .title-container h3,
@@ -59,7 +63,7 @@ p {
     font-weight: lighter;
 }
 
-.title-container .about-button-container{
+.title-container .about-button-container {
     margin-top: 80px;
 }
 
@@ -68,7 +72,7 @@ p {
     text-transform: uppercase;
     padding: 15px 35px 15px 35px;
     margin-top: 20px;
-    color: #fff!important;
+    color: #fff !important;
     transition: all .4s;
     font-size: 15px;
 }
@@ -77,7 +81,6 @@ p {
     border-color: #cc005f;
     text-decoration: none;
 }
-
 
 .title-container ul {
     margin-top: 180px;
@@ -124,7 +127,6 @@ p {
     margin: 30px;
     float: right;
 }
-
 
 .about-container p,
 .about-container span {
@@ -211,6 +213,7 @@ p {
     height: 7px;
     width: 400px;
 }
+
 .about-container .skills-container .progress-bar-android,
 .about-container .skills-container .progress-bar-java,
 .about-container .skills-container .progress-bar-html,
@@ -280,7 +283,6 @@ p {
     text-decoration: none;
 }
 
-
 .about-container .hire-me a {
     padding: 10px 80px 10px 80px;
     border: 3px solid #888888;
@@ -298,7 +300,7 @@ p {
 
 .about-container .cv a {
     color: #fff;
-    border:3px solid #888888;
+    border: 3px solid #888888;
     padding: 10px 45px 10px 45px;
     background-color: #888888;
     text-transform: uppercase;
@@ -321,7 +323,7 @@ p {
 
 }
 
-.resume-container .resume-header h3{
+.resume-container .resume-header h3 {
     color: #cc005f;
     font-size: 18px;
     letter-spacing: 2px;
@@ -397,7 +399,6 @@ p {
     text-align: start;
 }
 
-
 .resume-container .timeline-header h4,
 .resume-container .timeline-occupation h4 {
     font-weight: 700;
@@ -424,24 +425,21 @@ p {
 .services-container h1,
 .services-container h4 {
     font-family: 'Poppins', sans-serif;
-    color: #fff!important;
+    color: #fff !important;
 }
-
-
 
 .services-container i {
-    color: #fff!important;
+    color: #fff !important;
 }
 
-
-.services-container .services-header h3{
+.services-container .services-header h3 {
     font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.services-container .services-header h1{
+.services-container .services-header h1 {
     font-weight: 700;
 }
 
@@ -461,7 +459,6 @@ p {
     font-size: 18px;
     padding: 0 30px 0 30px;
 }
-
 
 /*CONTACT*/
 
@@ -498,7 +495,6 @@ p {
     padding: 0 230px 90px 230px;
 }
 
-
 .contact-container form fieldset input,
 .contact-container form fieldset textarea {
     width: 100%;
@@ -513,7 +509,6 @@ p {
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-
 
 .contact-container form fieldset textarea {
     overflow: hidden;
@@ -566,7 +561,7 @@ p {
 .contact-container .where-to-find .info p,
 .contact-container .email-me .info p,
 .contact-container .call-me .info p {
-    color:#888888;
+    color: #888888;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     line-height: 5px;

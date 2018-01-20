@@ -1,17 +1,21 @@
-<?php include("./includes/link-paths.php")?>
+<?php include("link-paths.php") ?>
 
 <section>
     <div class="title-container">
         <div class="container">
             <div class="row">
+                <div class="languages-change">
+                    <a href="?lang=en"><img src="./img/usa-flag.png"></a>
+                    <a href="?lang=pt-br"><img src="./img/brazil-flag.png"></a>
+                </div>
                 <div class="col-md-12">
                     <div class="title text-center">
-                        <h2>Hello, World.</h2>
-                        <h1>I'm Davi Cunha</h1>
+                        <h2><?php echo $titleh2 ?></h2>
+                        <h1><?php echo $titleh1 ?></h1>
 
                         <div class="row">
                             <?php
-                            $positions = array("Tech-Enthusiast", "Full Stack Developer", "Entrepreneur", "Music Lover");
+                            $positions = array("$titleh3one", "$titleh3two", "$titleh3three", "$titleh3four");
 
                             for ($i = 0; $i < count($positions); $i++) {
                                 echo "
@@ -27,7 +31,7 @@
                 </div>
 
                 <div class="col-md-12 text-center about-button-container">
-                    <a class="about-button" href="#">More about me</a>
+                    <a class="about-button" href="#"><?php echo $titlea; ?></a>
                 </div>
 
 
