@@ -68,5 +68,8 @@ $resumeHeaderH3 = $xml->resumeHeaderH3->$lang;
 $resumeHeaderH1 = $xml->resumeHeaderH1->$lang;
 $resumeHeaderP = $xml->resumeHeaderP->$lang;
 
+/*RESUME CONTAINER*/
+
+
 
 

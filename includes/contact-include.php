@@ -44,37 +44,38 @@
                     </form>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="where-to-find text-center">
-                        <i class="fas fa-map-marker"></i>
-                        <h5>Where to find me</h5>
-                        <div class="info">
-                            <p>Rua Patagônia, nº 983, Sion</p>
-                            <p>Belo Horizonte</p>
-                            <p>Minas Gerais</p>
-                            <p>Brazil</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="email-me text-center">
-                        <i class="fas fa-envelope"></i>
-                        <h5>Email me</h5>
-                        <div class="info">
-                            <p>davipccunhasilva@hotmail.com</p>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="call-me text-center">
-                        <i class="fas fa-phone"></i>
-                        <h5>Call me</h5>
-                        <div class="info">
-                            <p>+55 (31) 99937-9709</p>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                $iContact = array("map-marker", "envelope", "phone");
+                $h5Contact = array("Where to find me", "Email me", "Call me");
+                $pContact = array("davipccunhasilva@hotmail.com", "+55 (31) 99937-9709");
+
+                for($i = 0; $i < count($iContact); $i++) {
+                    echo "
+                        <div class=\"col-md-4\">
+                            <div class=\"where-to-find text-center\">
+                                <i class=\"fas fa-$iContact[$i]\"></i>
+                                <h5>$h5Contact[$i]</h5>
+                                <div class=\"info\">
+                    ";
+
+                    if($i == 0) {
+                        echo "<p>Rua Patagônia, nº 983, Sion</p>
+                              <p>Belo Horizonte</p>
+                              <p>Minas Gerais</p>
+                              <p>Brazil</p>";
+                    } elseif ($i > 0) {
+                        $j = $i - 1;
+                        echo "<p>$pContact[$j]</p>";
+                    }
+
+                    echo "
+                                </div>
+                            </div>
+                        </div>";
+                }
+
+                ?>
             </div>
         </div>
     </div>

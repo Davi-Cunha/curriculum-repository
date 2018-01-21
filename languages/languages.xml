@@ -153,4 +153,9 @@
         <pt-br>Minha educação e experiencia de trabalho.</pt-br>
     </resumeHeaderP>
 
+    <!--RESUME CONTAINER-->
+    <timelineWrapHeaderH4>
+        <en>Work Experience</en>
+        <pt-br>Experiência de Trabalho</pt-br>
+    </timelineWrapHeaderH4>
 </root>
