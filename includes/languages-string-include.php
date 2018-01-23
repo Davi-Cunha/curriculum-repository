@@ -68,8 +68,12 @@ $resumeHeaderH3 = $xml->resumeHeaderH3->$lang;
 $resumeHeaderH1 = $xml->resumeHeaderH1->$lang;
 $resumeHeaderP = $xml->resumeHeaderP->$lang;
 
-/*RESUME CONTAINER*/
+/*RESUME WORK CONTAINER WRAP*/
+$timelineWrapHeaderH4 = $xml->timelineWrapHeaderH4->$lang;
 
-
-
-
+/*RESUME WORK CONTAINER*/
+$workH4TimelineHeaderOne = $xml->workH4TimelineHeaderOne->$lang;
+$workH4TimelineHeaderTwo = $xml->workH4TimelineHeaderTwo->$lang;
+$workPTimelineHeaderOne = $xml->workPTimelineHeaderOne->$lang;
+$workPTimelineHeaderTwo = $xml->workPTimelineHeaderTwo->$lang;
+$workH4TimelineOccupationOne = $xml->workH4TimelineOccupationOne->$lang;

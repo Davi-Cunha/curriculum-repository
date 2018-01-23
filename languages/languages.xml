@@ -153,9 +153,37 @@
         <pt-br>Minha educação e experiencia de trabalho.</pt-br>
     </resumeHeaderP>
 
-    <!--RESUME CONTAINER-->
+    <!--RESUME CONTAINER WRAP HEADER-->
     <timelineWrapHeaderH4>
         <en>Work Experience</en>
         <pt-br>Experiência de Trabalho</pt-br>
     </timelineWrapHeaderH4>
+
+    <!--RESUME CONTAINER WORK HEADER-->
+    <workH4TimelineHeaderOne>
+        <en>Freelancer</en>
+        <pt-br>Freelancer</pt-br>
+    </workH4TimelineHeaderOne>
+    <workH4TimelineHeaderTwo>
+        <en>Web Designer</en>
+        <pt-br>Web Designer</pt-br>
+    </workH4TimelineHeaderTwo>
+    <workPTimelineHeaderOne>
+        <en>June 2015 - Present</en>
+        <pt-br>Julho de 2015 - Presente</pt-br>
+    </workPTimelineHeaderOne>
+    <workPTimelineHeaderTwo>
+        <en>October 2017 - December 2017</en>
+        <pt-br>Outubro de 2017 - Dezembro de 2017</pt-br>
+    </workPTimelineHeaderTwo>
+    <workH4TimelineOccupationOne>
+        <en>Resource Manager Application Developer</en>
+        <pt-br>Desenvolvedor de Aplicação Gerenciamento de Recursos</pt-br>
+    </workH4TimelineOccupationOne>
+    <workH4TimelineOccupationOne>
+        <en>Nerit</en>
+        <pt-br>Nerit</pt-br>
+    </workH4TimelineOccupationOne>
+
+
 </root>

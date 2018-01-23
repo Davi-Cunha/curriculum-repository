@@ -17,15 +17,15 @@
                 echo "
                     <div class=\"col-md-12\">
                         <div class=\"timeline-wrap-header\">
-                            <h4 class=\"text-center\">Work Experience</h4>
+                            <h4 class=\"text-center\">$timelineWrapHeaderH4</h4>
                         </div>
                     </div>";
 
-                $workH4TimelineHeader = array("Freelancer", "Web Designer");
-                $workPTimelineHeader = array("June 2015 - Present", "October 2017 - December 2017");
+                $workH4TimelineHeader = array($workH4TimelineHeaderOne, $workH4TimelineHeaderTwo);
+                $workPTimelineHeader = array($workPTimelineHeaderOne, $workPTimelineHeaderTwo);
                 $workITimelineWrapIcon = "fas fa-briefcase";
 
-                $workH4TimelineOccupation = array("Source Manager Application Developer", "Nerit");
+                $workH4TimelineOccupation = array("Resource Manager Application Developer", "Nerit");
                 $workPTimelineOccupation = array("Since I learned how to program when I was 12 years old I have got some freelancer jobs from
                             simple landing pages for some websites to whole source manager systems for little
                             companies.", "I got hired as a intern at Nerit, a brazilian software company. I worked as web designer as
