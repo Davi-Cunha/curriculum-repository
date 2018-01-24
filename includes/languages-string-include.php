@@ -69,11 +69,49 @@ $resumeHeaderH1 = $xml->resumeHeaderH1->$lang;
 $resumeHeaderP = $xml->resumeHeaderP->$lang;
 
 /*RESUME WORK CONTAINER WRAP*/
-$timelineWrapHeaderH4 = $xml->timelineWrapHeaderH4->$lang;
+$timelineWrapHeaderH4One = $xml->timelineWrapHeaderH4One->$lang;
+$timelineWrapHeaderH4Two = $xml->timelineWrapHeaderH4Two->$lang;
 
-/*RESUME WORK CONTAINER*/
+/*RESUME WORK CONTAINER TIMELINE HEADER*/
 $workH4TimelineHeaderOne = $xml->workH4TimelineHeaderOne->$lang;
 $workH4TimelineHeaderTwo = $xml->workH4TimelineHeaderTwo->$lang;
 $workPTimelineHeaderOne = $xml->workPTimelineHeaderOne->$lang;
 $workPTimelineHeaderTwo = $xml->workPTimelineHeaderTwo->$lang;
+
+/*RESUME WORK CONTAINER OCCUPATION*/
 $workH4TimelineOccupationOne = $xml->workH4TimelineOccupationOne->$lang;
+$workH4TimelineOccupationTwo = $xml->workH4TimelineOccupationTwo->$lang;
+$workPTimelineOccupationOne = $xml->workPTimelineOccupationOne->$lang;
+$workPTimelineOccupationTwo = $xml->workPTimelineOccupationTwo->$lang;
+
+/*RESUME EDUCATION CONTAINER TIMELINE HEADER*/
+$educationH4TimelineHeaderOne = $xml->educationH4TimelineHeaderOne->$lang;
+$educationH4TimelineHeaderTwo = $xml->educationH4TimelineHeaderTwo->$lang;
+$educationH4TimelineHeaderThree = $xml->educationH4TimelineHeaderThree->$lang;
+$educationPTimelineHeaderOne = $xml->educationPTimelineHeaderOne->$lang;
+$educationPTimelineHeaderTwo = $xml->educationPTimelineHeaderTwo->$lang;
+$educationPTimelineHeaderThree = $xml->educationPTimelineHeaderThree->$lang;
+
+/*RESUME EDUCATION CONTAINER OCCUPATION*/
+$educationH4TimelineOccupationOne = $xml->educationH4TimelineOccupationOne->$lang;
+$educationH4TimelineOccupationTwo = $xml->educationH4TimelineOccupationTwo->$lang;
+$educationH4TimelineOccupationThree = $xml->educationH4TimelineOccupationThree->$lang;
+$educationPTimelineOccupationOne = $xml->educationPTimelineOccupationOne->$lang;
+$educationPTimelineOccupationTwo = $xml->educationPTimelineOccupationTwo->$lang;
+$educationPTimelineOccupationThree = $xml->educationPTimelineOccupationThree->$lang;
+
+
+/*SERVICES*/
+
+/*SERVICES HEADER*/
+$serviceHeaderH3 = $xml->serviceHeaderH3->$lang;
+$serviceHeaderH1 = $xml->serviceHeaderH1->$lang;
+$serviceHeaderP = $xml->serviceHeaderP->$lang;
+
+/*SERVICE CONTAINER*/
+$h4ServiceOne = $xml->h4ServiceOne->$lang;
+$h4ServiceTwo = $xml->h4ServiceTwo->$lang;
+$h4ServiceThree = $xml->h4ServiceThree->$lang;
+
+
+

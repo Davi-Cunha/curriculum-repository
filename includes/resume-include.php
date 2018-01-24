@@ -1,4 +1,4 @@
-<?php include("./includes/link-paths.php")?>
+<?php include("./includes/link-paths.php") ?>
 
 <section>
     <div class="resume-container">
@@ -6,18 +6,20 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="resume-header">
-                        <h3><?php echo $resumeHeaderH3?></h3>
-                        <h1><?php echo $resumeHeaderH1?></h1>
-                        <p><?php echo $resumeHeaderP?></p>
+                        <h3><?php echo $resumeHeaderH3 ?></h3>
+                        <h1><?php echo $resumeHeaderH1 ?></h1>
+                        <p><?php echo $resumeHeaderP ?></p>
                     </div>
                 </div>
 
                 <?php
 
+                $timelineWrapHeaderH4 = array($timelineWrapHeaderH4One, $timelineWrapHeaderH4Two);
+
                 echo "
                     <div class=\"col-md-12\">
                         <div class=\"timeline-wrap-header\">
-                            <h4 class=\"text-center\">$timelineWrapHeaderH4</h4>
+                            <h4 class=\"text-center\">$timelineWrapHeaderH4[0]</h4>
                         </div>
                     </div>";
 
@@ -25,12 +27,8 @@
                 $workPTimelineHeader = array($workPTimelineHeaderOne, $workPTimelineHeaderTwo);
                 $workITimelineWrapIcon = "fas fa-briefcase";
 
-                $workH4TimelineOccupation = array("Resource Manager Application Developer", "Nerit");
-                $workPTimelineOccupation = array("Since I learned how to program when I was 12 years old I have got some freelancer jobs from
-                            simple landing pages for some websites to whole source manager systems for little
-                            companies.", "I got hired as a intern at Nerit, a brazilian software company. I worked as web designer as
-                            well as infrastructure support, certifying that the company's hardware as whole was running
-                            as it should.");
+                $workH4TimelineOccupation = array($workH4TimelineOccupationOne, $workH4TimelineOccupationTwo);
+                $workPTimelineOccupation = array($workPTimelineOccupationOne, $workPTimelineOccupationTwo);
 
                 for ($i = 0; $i < count($workH4TimelineHeader); $i++) {
                     echo "<div class=\"col-md-4\">
@@ -58,25 +56,18 @@
                 echo "
                     <div class=\"col-md-12\">
                         <div class=\"timeline-wrap-header\">
-                            <h4 class=\"text-center\">Education</h4>
+                            <h4 class=\"text-center\">$timelineWrapHeaderH4[1]</h4>
                         </div>
                     </div>";
 
-                $educationH4TimelineHeader = array("Computer Science Bachelor", "Computer Engineering Bachelor", "High School");
-                $educationPTimelineHeader = array("January 2018 - Present", "January 2016 - December 2017", "January 2013 - December 2015");
+                $educationH4TimelineHeader = array($educationH4TimelineHeaderOne, $educationH4TimelineHeaderTwo, $educationH4TimelineHeaderThree);
+                $educationPTimelineHeader = array($educationPTimelineHeaderOne, $educationPTimelineHeaderTwo, $educationPTimelineHeaderThree);
                 $educationITimelineWrapIcon = "fas fa-graduation-cap";
 
-                $educationH4TimelineOccupation = array("PUC Minas", "FUMEC", "Edna Roriz High School");
-                $educationPTimelineOccupation = array("Moved to Computer Science I'm still doing this course at the moment, planning to finish it at
-                            2021.", "I started Computer Engineering course at FUMEC, which is more focused on hardware at 2016 but
-                            I changed to Computer Science because I got more interested on software development than
-                            hardware development over time. Another factor that made me decide to move to Computer
-                            Science is due fact that I started a company and we needed a computer scientist as CTO
-                            (me).", "I studied from the 10th to 12th grade at Edna Roriz High School, a brazilian international
-                            school. Through my whole time at it I had the opportunity to meet people from all over the
-                            world from different backgrounds and cultures.");
+                $educationH4TimelineOccupation = array($educationH4TimelineOccupationOne, $educationH4TimelineOccupationTwo, $educationH4TimelineOccupationThree);
+                $educationPTimelineOccupation = array($educationPTimelineOccupationOne , $educationPTimelineOccupationTwo, $educationPTimelineOccupationThree);
 
-                for($i = 0; $i < count($educationH4TimelineHeader); $i++) {
+                for ($i = 0; $i < count($educationH4TimelineHeader); $i++) {
                     echo "
                     <div class=\"col-md-4\">
                         <div class=\"timeline-header\">
@@ -97,8 +88,8 @@
                     </div>";
                 }
                 ?>
+            </div>
         </div>
-    </div>
 
 
 </section>
