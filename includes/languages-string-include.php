@@ -1,17 +1,14 @@
 <?php
 
-$lang = $_GET['lang'];
-$langArray = array('en', 'pt-br');
+$lang = isset($_GET['lang'])? $_GET['lang']: 'en';
+$langArray = array('en', 'pt-br',);
 $found = false;
 
-if (in_array($lang, $langArray)) {
-    $found = true;
-}
-if (!$found) {
-    $lang = 'en';
-}
-
 $xml = simplexml_load_file("./languages/languages.xml") or die("xml not found!");
+
+/*WEBSITE TITLE TAG*/
+
+$titleTag = $xml->titleTag->$lang;
 
 /*TITLE*/
 
@@ -112,6 +109,36 @@ $serviceHeaderP = $xml->serviceHeaderP->$lang;
 $h4ServiceOne = $xml->h4ServiceOne->$lang;
 $h4ServiceTwo = $xml->h4ServiceTwo->$lang;
 $h4ServiceThree = $xml->h4ServiceThree->$lang;
+$pServiceOne = $xml->pServiceOne->$lang;
+$pServiceTwo = $xml->pServiceTwo->$lang;
+$pServiceThree = $xml->pServiceThree->$lang;
+
+
+/*CONTACT*/
+
+/*CONTACT HEADER*/
+$contactHeaderH3 = $xml->contactHeaderH3->$lang;
+$contactHeaderH1 = $xml->contactHeaderH1->$lang;
+$contactHeaderP = $xml->contactHeaderP->$lang;
+
+/*CONTACT FROM PLACEHOLDER*/
+$contactFormNamePlaceholder = $xml->contactFormNamePlaceholder->$lang;
+$contactFormEmailPlaceholder = $xml->contactFormEmailPlaceholder->$lang;
+$contactFormSubjectPlaceholder = $xml->contactFormSubjectPlaceholder->$lang;
+$contactFormMessagePlaceholder = $xml->contactFormMessagePlaceholder->$lang;
+$contactFormSubmit = $xml->contactFormSubmit->$lang;
+
+/*CONTACT WHERE TO FIND ME*/
+$contactWhereToFindMe = $xml->contactWhereToFindMe->$lang;
+$contactWhereToFindMeBrazil = $xml->contactWhereToFindMeBrazil->$lang;
+$contactEmailMe = $xml->contactEmailMe->$lang;
+$contactCallMe = $xml->contactCallMe->$lang;
+
+/*FOOTER DESIGNED BY*/
+$designedBy = $xml->designedBy->$lang;
+
+
+
 
 
 

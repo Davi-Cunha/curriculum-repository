@@ -1,12 +1,10 @@
-<?php include("./includes/link-paths.php") ?>
-
 <footer>
     <div class="footer-container">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <p>&copy davicunhasilva 2018.</p>
-                    <p>Design by <a href="#">davicunhasilva</a></p>
+                    <p><?php echo $designedBy ?> <a href="#">davicunhasilva</a></p>
                 </div>
                 <div class="col-md-6">
                     <ul>

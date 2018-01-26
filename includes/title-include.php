@@ -1,5 +1,3 @@
-<?php include("link-paths.php") ?>
-
 <section>
     <div class="title-container">
         <div class="container">

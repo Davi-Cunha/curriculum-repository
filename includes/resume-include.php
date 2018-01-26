@@ -1,5 +1,3 @@
-<?php include("./includes/link-paths.php") ?>
-
 <section>
     <div class="resume-container">
         <div class="container">

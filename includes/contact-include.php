@@ -1,38 +1,35 @@
-<?php include("./includes/link-paths.php") ?>
-
 <section>
     <div class="contact-container">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact-header">
-                        <h3 class="text-center">Contact me</h3>
-                        <h1 class="text-center">I would love hear from you.</h1>
-                        <p class="text-center">You can contact me via social medias listed above, phone or even e-mail.
-                            Feel free to contact me, I'll get back to you as soon as possible.</p>
+                        <h3 class="text-center"><?php echo $contactHeaderH3 ?></h3>
+                        <h1 class="text-center"><?php echo $contactHeaderH1 ?></h1>
+                        <p class="text-center"><?php echo $contactHeaderP ?></p>
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <form method="post" action="./redirect.php">
+                    <form method="post" action="./includes/redirect.php">
                         <fieldset class="text-center">
                             <div class="form-field">
-                                <input type="text" id="name" placeholder="Name" name="name"
+                                <input type="text" id="name" placeholder="<?php echo $contactFormNamePlaceholder ?>" name="name"
                                        onfocus="borderColorFunction(this)" required>
                             </div>
                             <div class="form-field">
-                                <input type="email" id="email" placeholder="E-mail" name="email"
+                                <input type="email" id="email" placeholder="<?php echo $contactFormEmailPlaceholder ?>" name="email"
                                        onfocus="borderColorFunction(this)" required>
                             </div>
                             <div class="form-field">
-                                <input type="text" id="subject" placeholder="Subject" name="subject"
+                                <input type="text" id="subject" placeholder="<?php echo $contactFormSubjectPlaceholder ?>" name="subject"
                                        onfocus="borderColorFunction(this)" required>
                             </div>
                             <div class="form-field">
-                                <textarea id="message" placeholder="Message" name="message"
+                                <textarea id="message" placeholder="<?php echo $contactFormMessagePlaceholder ?>" name="message"
                                           onfocus="borderColorFunction(this)" required></textarea>
                             </div>
                             <div class="form-field">
-                                <button type="submit" id="submit-button">Submit</button>
+                                <button type="submit" id="submit-button"><?php echo $contactFormSubmit ?></button>
                             </div>
                             <script>
                                 function borderColorFunction(x) {
@@ -45,12 +42,13 @@
                 </div>
 
 
+
                 <?php
                 $iContact = array("map-marker", "envelope", "phone");
-                $h5Contact = array("Where to find me", "Email me", "Call me");
+                $h5Contact = array($contactWhereToFindMe, $contactEmailMe, $contactCallMe);
                 $pContact = array("davipccunhasilva@hotmail.com", "+55 (31) 99937-9709");
 
-                for($i = 0; $i < count($iContact); $i++) {
+                for ($i = 0; $i < count($iContact); $i++) {
                     echo "
                         <div class=\"col-md-4\">
                             <div class=\"where-to-find text-center\">
@@ -59,11 +57,11 @@
                                 <div class=\"info\">
                     ";
 
-                    if($i == 0) {
+                    if ($i == 0) {
                         echo "<p>Rua Patagônia, nº 983, Sion</p>
                               <p>Belo Horizonte</p>
                               <p>Minas Gerais</p>
-                              <p>Brazil</p>";
+                              <p>$contactWhereToFindMeBrazil</p>";
                     } elseif ($i > 0) {
                         $j = $i - 1;
                         echo "<p>$pContact[$j]</p>";

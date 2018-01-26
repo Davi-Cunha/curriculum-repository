@@ -1,5 +1,3 @@
-<?php include("./includes/link-paths.php") ?>
-
 <section>
     <div class="services-container">
         <div class="row">
@@ -14,7 +12,7 @@
             <?php
             $iService = array("mobile", "window-maximize", "terminal");
             $h4Service = array($h4ServiceOne, $h4ServiceTwo, $h4ServiceThree);
-            $pService = array("I've been working on android apps for about a year, doing some business apps. Most apps i've made was to back stage productivity for small corporations. Maybe I can be useful for you needs.", "I can develop cool responsive static websites based on open source frameworks like BootStrap, Materializecss, Parallax.js in HTML5,CSS3 & JavaScript. If you prefer I can also develop dynamic blogs using cms like WordPress, Blogger etc.I can also help with its hosting and DNS configurations.", "I have been using Linux since last 3 years as my primary OS and I am a pro in terms of Linux administration.I have used almost all the popular linux distros including Arch, Debian, Fedora, Tails etc. I am capable of doing advance configurations using scripts and cli. Also capable to create bots to automate some processes.");
+            $pService = array($pServiceOne, $pServiceTwo, $pServiceThree);
 
             for ($i = 0; $i < count($iService); $i++) {
                 echo "

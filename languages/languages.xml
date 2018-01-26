@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
+    <!--WEBSITE TITLE TAG-->
+    <titleTag>
+        <en>Hi, I'm Davi</en>
+        <pt-br>Olá, Eu sou Davi Cunha</pt-br>
+    </titleTag>
+
     <!--TITLE-->
     <titleH1>
         <en>I'm Davi Cunha</en>
@@ -320,5 +326,106 @@
             para suas necessidade.
         </pt-br>
     </pServiceOne>
+    <pServiceTwo>
+        <en>
+            I can develop responsive websites based on open source frameworks like BootStrap, Materialize-css,
+            Parallax.js in HTML5, CSS3, JavaScript. If you prefer I can also develop dynamic blogs using cms like
+            WordPress, Blogger or even create a cms from scratch for you to do it yourself.I can also help
+            with its hosting and DNS configurations.
+        </en>
+        <pt-br>
+            Eu posso desenvolver websites responsivos baseados em frameworks como BootStrap, Materialize-css,
+            Parallax.js in HTML5, CSS3, JavaScript. Se preferir também posso desenvolver blogs dinâmicos usando cms como
+            WordPress, Blogger ou ainda criar um cms do zero para você mesmo criar o seus próprios websites. Também
+            ajudo no hosting e configurações de DNS.
+        </pt-br>
+    </pServiceTwo>
+    <pServiceThree>
+        <en>
+            I have been using Linux for at least 3 years as my primary OS and I know quite a lot in terms of Linux
+            administration. I have used almost all the popular linux distros including Arch, Debian, Fedora, Tails etc.
+            I am capable of doing advance configurations using scripts and cli. Also capable to create bots to automate
+            processes.
+        </en>
+        <pt-br>
+            Venho utilizando Linux a 3 anos como meu SO primário e sei bastante em termo de administração Linux. Já
+            quase todas as distribuições linux incluindo Arch, Debian, Fedora, Ubuntu, Tails, Kali etc. Sou capaz de
+            fazer configurações avançadas usando script e cli. Também capacitado para criar bots para automatizar
+            processos.
+        </pt-br>
+    </pServiceThree>
+
+    <!--CONTACT-->
+    <contactHeaderH3>
+        <en>Contact me</en>
+        <pt-br>Contate-me</pt-br>
+    </contactHeaderH3>
+    <contactHeaderH1>
+        <en>I would like hear from you.</en>
+        <pt-br>Eu adoraria ouvir de você</pt-br>
+    </contactHeaderH1>
+    <contactHeaderP>
+        <en>
+            You can contact me via social medias listed above, phone or even e-mail. Feel free to contact me. I'll get
+            back to you as soon as possible.
+        </en>
+        <pt-br>
+            Entre em contato por meio das mídias socias listadas acima, por telefone ou ainda e-mail. Sinta-se a vontade
+            para me contatar, responderei mais breve possível.
+        </pt-br>
+    </contactHeaderP>
+
+
+    <!--CONTACT FORM PLACEHOLDER-->
+    <contactFormNamePlaceholder>
+        <en>Name</en>
+        <pt-br>Nome</pt-br>
+    </contactFormNamePlaceholder>
+    <contactFormEmailPlaceholder>
+        <en>E-mail</en>
+        <pt-br>E-mail</pt-br>
+    </contactFormEmailPlaceholder>
+    <contactFormSubjectPlaceholder>
+        <en>Subject</en>
+        <pt-br>Assunto</pt-br>
+    </contactFormSubjectPlaceholder>
+    <contactFormMessagePlaceholder>
+        <en>Message</en>
+        <pt-br>Mensagem</pt-br>
+    </contactFormMessagePlaceholder>
+    <contactFormSubmit>
+        <en>Submit</en>
+        <pt-br>Enviar</pt-br>
+    </contactFormSubmit>
+
+    <!--CONTACT WHERE TO FIND ME-->
+    <contactWhereToFindMe>
+        <en>Where to find me</en>
+        <pt-br>Onde me achar</pt-br>
+    </contactWhereToFindMe>
+
+    <!--CONTACT WHERE TO FIND ME BRAZIL-->
+    <contactWhereToFindMeBrazil>
+        <en>Brazil</en>
+        <pt-br>Brasil</pt-br>
+    </contactWhereToFindMeBrazil>
+
+    <!--CONTACT EMAIL ME-->
+    <contactEmailMe>
+        <en>Email me</en>
+        <pt-br>Me envie um e-mail</pt-br>
+    </contactEmailMe>
+
+    <!--CONTACT CALL ME-->
+    <contactCallMe>
+        <en>Call me</en>
+        <pt-br>Me ligue</pt-br>
+    </contactCallMe>
+
+    <!--FOOTER DESIGN BY-->
+    <designedBy>
+        <en>Designed by</en>
+        <pt-br>Criado por</pt-br>
+    </designedBy>
 
 </root>
