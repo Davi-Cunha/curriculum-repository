@@ -18,5 +18,9 @@
 <!--FONTS-->
 <link href="https://fonts.googleapis.com/css?family=Poppins|Lora|Lato" rel="stylesheet">
 
+<!--VIEWPORT-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <?php include("languages-string-include.php") ?>
+
 
