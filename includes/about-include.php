@@ -1,5 +1,3 @@
-<?php include("./includes/link-paths.php") ?>
-
 <section id="about">
     <div class="about-container">
         <div class="container">
@@ -9,7 +7,9 @@
                     <h2><?php echo $aboutHeaderH2?></h2>
                 </header>
                 <div class="col-md-4">
-                    <img class="profile-pic" src="img/profile-pic.png">
+                    <div class="profile-pic-container">
+                        <img class="profile-pic" src="img/profile-pic.png">
+                    </div>
                 </div>
                 <div class="col-md-8">
                     <div class="about-me">
@@ -90,7 +90,7 @@
                     <div class="row text-center">
                         <div class="col-md-6">
                             <div class="hire-me">
-                                <a href="#"><?php echo $hireme?></a>
+                                <a href="#contact"><?php echo $hireme?></a>
                             </div>
                         </div>
                         <div class="cv col-md-6">

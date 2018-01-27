@@ -1,10 +1,22 @@
 <?php
 
-$lang = isset($_GET['lang'])? $_GET['lang']: 'en';
-$langArray = array('en', 'pt-br',);
-$found = false;
+$lang = isset($_GET['lang']) ? $_GET['lang'] : 'en';
 
 $xml = simplexml_load_file("./languages/languages.xml") or die("xml not found!");
+
+
+/*RESPONSIVE ACCORDING WITH THE LANGUAGE*/
+if($lang == 'en') {
+    echo "
+    <link href=\"../css/responsive-english.css\" rel=\"stylesheet\" type=\"text/css\">
+    <link href=\"./css/responsive-english.css\" rel=\"stylesheet\" type=\"text/css\">
+    ";
+} elseif ($lang == 'pt-br') {
+    echo "
+    <link href=\"../css/responsive-portuguese.css\" rel=\"stylesheet\" type=\"text/css\">
+    <link href=\"./css/responsive-portuguese.css\" rel=\"stylesheet\" type=\"text/css\">
+    ";
+}
 
 /*WEBSITE TITLE TAG*/
 

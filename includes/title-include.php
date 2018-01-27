@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="col-md-12 text-center about-button-container">
-                    <a class="about-button" href="#"><?php echo $titleA; ?></a>
+                    <a class="about-button" href="#about"><?php echo $titleA; ?></a>
                 </div>
 
 

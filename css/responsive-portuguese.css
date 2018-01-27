@@ -211,7 +211,7 @@ p {
     background-color: #888888;
     position: absolute;
     height: 7px;
-    width: 400px;
+    width: 100%;
 }
 
 .about-container .skills-container .progress-bar-android,
@@ -232,51 +232,51 @@ p {
 }
 
 .about-container .skills-container .progress-bar-android {
-    width: 325px;
+    width: 81.25%;
 }
 
 .about-container .skills-container .progress-bar-java {
-    width: 350px;
+    width: 87.5%;
 }
 
 .about-container .skills-container .progress-bar-html {
-    width: 375px;
+    width: 93.75%;
 }
 
 .about-container .skills-container .progress-bar-css {
-    width: 370px;
+    width: 92.5%;
 }
 
 .about-container .skills-container .progress-bar-bootstrap {
-    width: 275px;
+    width: 68.75%;
 }
 
 .about-container .skills-container .progress-bar-php {
-    width: 250px;
+    width: 62.5%;
 }
 
 .about-container .skills-container .progress-bar-javascript {
-    width: 100px;
+    width: 25%;
 }
 
 .about-container .skills-container .progress-bar-python {
-    width: 200px;
+    width: 50%;
 }
 
 .about-container .skills-container .progress-bar-c {
-    width: 380px;
+    width: 95%;
 }
 
 .about-container .skills-container .progress-bar-cplusplus {
-    width: 380px;
+    width: 95%;
 }
 
 .about-container .skills-container .progress-bar-go {
-    width: 75px;
+    width: 18.75%;
 }
 
 .about-container .skills-container .progress-bar-linux {
-    width: 325px;
+    width: 81.25%;
 }
 
 .about-container a:hover {
@@ -418,7 +418,7 @@ p {
 
 .services-container {
     background-color: #a2004c;
-    padding: 120px 300px 120px 300px;
+    padding: 120px 60px 120px 60px;
 }
 
 .services-container h3,
@@ -457,7 +457,8 @@ p {
 .services-container p {
     color: #fff;
     font-size: 18px;
-    padding: 0 30px 0 30px;
+    padding: 0 10px 0 10px;
+    text-align: justify;
 }
 
 /*CONTACT*/
@@ -488,11 +489,12 @@ p {
     color: #eaeaea;
     font-size: 18px;
     line-height: 20px;
-    padding: 0 230px 0 230px;
+    padding: 0 20px 0 20px;
 }
 
 .contact-container form {
-    padding: 0 230px 90px 230px;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .contact-container form fieldset input,
@@ -575,7 +577,7 @@ p {
 }
 
 .footer-container p {
-    line-height: 0px;
+    line-height: 0;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
 }
@@ -598,5 +600,98 @@ p {
     list-style: none;
     padding: 0 10px 0 10px;
     font-size: 20px;
+}
+
+/*RESPONSIVE ENGLISH VERSION*/
+
+@media only screen and (max-width: 1199px) {
+    .title-container ul {
+        margin-top: 165px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .title-container ul {
+        margin-top: 146px;
+    }
+
+    .about-container .hire-me a {
+        padding: 10px 62px 10px 62px;
+    }
+
+    .about-container .cv a {
+        padding: 10px 23px 10px 24px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .title-container .about-button-container {
+        margin-top: 25px;
+    }
+
+    .title-container ul {
+        margin-top: 40px;
+    }
+
+    .about-container .profile-pic {
+        float: none;
+    }
+
+    .about-container .profile-pic-container {
+        text-align: center;
+    }
+
+    .about-container .hire-me {
+        margin: 0 0 40px 0;
+    }
+
+    .resume-container .timeline-wrap-icon::before {
+        display: none;
+    }
+
+    .resume-container .timeline-wrap-icon {
+        display: none;
+    }
+
+    .resume-container .timeline-wrap-icon i {
+        font-size: 25px;
+    }
+
+    .resume-container .resume-header {
+
+    }
+
+    .resume-container .timeline-occupation {
+        text-align: right;
+
+    }
+
+    .footer-container p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .about-container {
+        margin-left: 10px;
+        padding: 0 10px 130px 10px;
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+
+    .services-container p {
+        min-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 508px) {
+    .title-container {
+        padding: 100px 0 0 0;
+    }
 }
 

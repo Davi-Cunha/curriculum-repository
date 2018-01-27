@@ -9,11 +9,8 @@
 <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 
 <!--STYLESHEET-->
-<link href="../css/general.css" rel="stylesheet" type="text/css">
-<link href="./css/general.css" rel="stylesheet" type="text/css">
-
-<!--JAVASCRIPT-->
-<script src="../js/parallax.js" type="text/javascript"></script>
+<!--<link href="../css/general.css" rel="stylesheet" type="text/css">
+<link href="./css/general.css" rel="stylesheet" type="text/css">-->
 
 <!--FONTS-->
 <link href="https://fonts.googleapis.com/css?family=Poppins|Lora|Lato" rel="stylesheet">
