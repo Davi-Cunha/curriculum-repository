@@ -572,7 +572,6 @@ p {
 /*FOOTER*/
 
 .footer-container {
-
     background-color: #2f2d2d;
 }
 
@@ -602,37 +601,76 @@ p {
     font-size: 20px;
 }
 
-/*RESPONSIVE ENGLISH VERSION*/
+/*RESPONSIVE PORTUGUESE VERSION*/
 
 @media only screen and (max-width: 1199px) {
-    .title-container ul {
-        margin-top: 165px;
+
+    .title-container .about-button-container {
+        margin-top: 60px;
     }
 
-}
-
-@media only screen and (max-width: 991px) {
     .title-container ul {
-        margin-top: 146px;
-    }
-
-    .about-container .hire-me a {
-        padding: 10px 62px 10px 62px;
+        margin-top: 166px;
     }
 
     .about-container .cv a {
-        padding: 10px 23px 10px 24px;
+        padding: 10px 44px 10px 44px;
     }
 
+    .about-container .hire-me a {
+        padding: 10px 71px 10px 71px;
+    }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
+    .title-container h1 {
+        font-size: 60px;
+    }
+
+    .title-container h2{
+        font-size: 25px;
+    }
+
     .title-container .about-button-container {
-        margin-top: 25px;
+        margin-top: 40px;
     }
 
     .title-container ul {
-        margin-top: 40px;
+        margin-top: 219px;
+    }
+
+    .about-container .hire-me a {
+        padding: 10px 31px 10px 31px;
+    }
+
+    .about-container .cv a {
+        padding: 10px 4px 10px 4px;
+    }
+
+    .resume-container .timeline-header p {
+        line-height: 16px;
+    }
+
+    .contact-container .where-to-find p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .title-container h1 {
+        font-size: 47px;
+    }
+
+    .title-container h2 {
+        font-size: 21px;
+    }
+
+    .title-container .about-button-container {
+        margin-top: 95px;
+    }
+
+    .title-container ul {
+        margin-top: 122px;
     }
 
     .about-container .profile-pic {
@@ -668,7 +706,16 @@ p {
 
     }
 
+    .contact-container .where-to-find p {
+        font-size: 17px;
+    }
+
     .footer-container p {
+        text-align: center;
+    }
+
+    .footer-container ul {
+        float: none;
         text-align: center;
     }
 }
@@ -679,19 +726,49 @@ p {
         padding: 0 10px 130px 10px;
     }
 
+    .title-container h1 {
+        font-size: 41px;
+    }
+
+    .title-container h2 {
+        font-size: 20px;
+    }
+
+    .title-container ul {
+
+    }
 }
 
 @media only screen and (max-width: 530px) {
 
+    .title-container h1 {
+        font-size: 37px;
+    }
+
+    .title-container h2 {
+        font-size: 17px;
+    }
+
     .services-container p {
         min-width: 100%;
     }
-
 }
 
 @media only screen and (max-width: 508px) {
-    .title-container {
-        padding: 100px 0 0 0;
+    .title-container h1 {
+        line-height: 34px;
     }
+
+    .title-container ul {
+        margin-top: 147px;
+    }
+
 }
 
+@media only screen and (max-width: 371px) {
+
+    .title-container ul {
+        margin-top: 110px;
+    }
+
+}

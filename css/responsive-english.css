@@ -572,9 +572,9 @@ p {
 /*FOOTER*/
 
 .footer-container {
-
     background-color: #2f2d2d;
 }
+
 
 .footer-container p {
     line-height: 0;
@@ -602,38 +602,76 @@ p {
     font-size: 20px;
 }
 
-
 /*RESPONSIVE ENGLISH VERSION*/
 
 @media only screen and (max-width: 1199px) {
-    .title-container ul {
-        margin-top: 165px;
+
+    .title-container .about-button-container {
+        margin-top: 60px;
     }
 
+    .title-container ul {
+        margin-top: 180px;
+    }
+
+    .about-container .cv a {
+        padding: 10px 44px 10px 44px;
+    }
+
+    .about-container .hire-me a {
+        padding: 10px 71px 10px 71px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
-    .title-container ul {
-        margin-top: 146px;
+    .title-container h1 {
+        font-size: 60px;
     }
 
-    .about-container .hire-me a{
+    .title-container h2{
+        font-size: 25px;
+    }
+
+    .title-container .about-button-container {
+        margin-top: 40px;
+    }
+
+    .title-container ul {
+        margin-top: 219px;
+    }
+
+    .about-container .hire-me a {
         padding: 10px 62px 10px 62px;
     }
 
-    .about-container .cv a{
-        padding: 10px 23px 10px 24px;
+    .about-container .cv a {
+        padding: 10px 23px 10px 23px;
     }
 
+    .resume-container .timeline-header p {
+        line-height: 16px;
+    }
+
+    .contact-container .where-to-find p {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .title-container h1 {
+        font-size: 47px;
+    }
+
+    .title-container h2 {
+        font-size: 21px;
+    }
+
     .title-container .about-button-container {
-        margin-top: 25px;
+        margin-top: 95px;
     }
 
     .title-container ul {
-        margin-top: 40px;
+        margin-top: 122px;
     }
 
     .about-container .profile-pic {
@@ -656,7 +694,7 @@ p {
         display: none;
     }
 
-    .resume-container .timeline-wrap-icon i{
+    .resume-container .timeline-wrap-icon i {
         font-size: 25px;
     }
 
@@ -669,15 +707,18 @@ p {
 
     }
 
+    .contact-container .where-to-find p {
+        font-size: 17px;
+    }
+
     .footer-container p {
         text-align: center;
     }
 
-
-
-
-
-
+    .footer-container ul {
+        float: none;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -686,14 +727,49 @@ p {
         padding: 0 10px 130px 10px;
     }
 
-}
+    .title-container h1 {
+        font-size: 41px;
+    }
 
+    .title-container h2 {
+        font-size: 20px;
+    }
+
+    .title-container ul {
+
+    }
+}
 
 @media only screen and (max-width: 530px) {
 
+    .title-container h1 {
+        font-size: 37px;
+    }
+
+    .title-container h2 {
+        font-size: 17px;
+    }
 
     .services-container p {
         min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 508px) {
+    .title-container h1 {
+        line-height: 34px;
+    }
+
+    .title-container ul {
+        margin-top: 147px;
+    }
+
+}
+
+@media only screen and (max-width: 306px) {
+
+    .title-container ul {
+        margin-top: 180px;
     }
 
 }

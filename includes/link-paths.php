@@ -8,16 +8,19 @@
 <!--FONT AWESOME 5-->
 <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 
-<!--STYLESHEET-->
-<!--<link href="../css/general.css" rel="stylesheet" type="text/css">
-<link href="./css/general.css" rel="stylesheet" type="text/css">-->
-
 <!--FONTS-->
 <link href="https://fonts.googleapis.com/css?family=Poppins|Lora|Lato" rel="stylesheet">
 
 <!--VIEWPORT-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
+<!--TAB COLOR-->
+<meta name="theme-color" content="#a2004c" />
+
+<!--LANGUAGE STRINGS-->
 <?php include("languages-string-include.php") ?>
+
+<!--FAV ICON-->
+<link rel="icon" type="image/png" href="./img/fav-icon.png">
 
 

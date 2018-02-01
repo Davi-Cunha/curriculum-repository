@@ -58,8 +58,7 @@
                     ";
 
                     if ($i == 0) {
-                        echo "<p>Rua Patagônia, nº 983, Sion</p>
-                              <p>Belo Horizonte</p>
+                        echo "<p>Belo Horizonte</p>
                               <p>Minas Gerais</p>
                               <p>$contactWhereToFindMeBrazil</p>";
                     } elseif ($i > 0) {
