@@ -8,6 +8,10 @@
 <!--FONT AWESOME 5-->
 <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 
+<!--STYLESHEET-->
+<!--<link href="../css/general.css" rel="stylesheet" type="text/css">
+<link href="./css/general.css" rel="stylesheet" type="text/css">-->
+
 <!--FONTS-->
 <link href="https://fonts.googleapis.com/css?family=Poppins|Lora|Lato" rel="stylesheet">
 
@@ -22,5 +26,3 @@
 
 <!--FAV ICON-->
 <link rel="icon" type="image/png" href="./img/fav-icon.png">
-
-

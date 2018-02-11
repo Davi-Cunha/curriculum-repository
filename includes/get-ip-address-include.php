@@ -1,9 +1,5 @@
 <?php
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
 $clientIpAddress = getClientIpServer();
 
 $servername = "127.0.0.1";
@@ -18,8 +14,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO contacts (contact_name, contact_email, contact_subject_message, contact_message, contact_ip_address)
-VALUES ('$name', '$email', '$subject', '$message', '$clientIpAddress')";
+$sql = "INSERT INTO quick_access (ip_address_quick_access)
+VALUES ('$clientIpAddress')";
 
 $conn->query($sql);
 
@@ -45,6 +41,5 @@ function getClientIpServer() {
     return $ipaddress;
 }
 
-header("location: ../index.php");
 
 ?>

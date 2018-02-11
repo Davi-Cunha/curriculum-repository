@@ -19,7 +19,9 @@ include("./includes/services-include.php");
 
 include("./includes/contact-include.php");
 
-include("./includes/footer-include.php")
+include("./includes/footer-include.php");
+
+include("./includes/get-ip-address-include.php");
 
 ?>
 

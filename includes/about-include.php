@@ -54,7 +54,7 @@
                     <div class="skills-container">
                         <ul>
                             <?php
-                            $strong = array("$profileContainerSkillsStrong", "Android", "Java", "HTML5", "CSS", "Bootstrap", "PHP", "JavaScript", "Python", "C", "C++", "Go", "Linux");
+                            $strong = array("$profileContainerSkillsStrong", "Android", "Java", "HTML5", "CSS3", "Bootstrap 4", "PHP 7", "JavaScript", "Python", "C", "C++", "Go", "Linux");
                             $progress_bar = array("android", "java", "html", "css", "bootstrap", "php", "javascript", "python", "c", "cplusplus", "go", "linux");
 
                             for ($i = 0, $j = 0; $i < count($strong); $i++) {
@@ -95,7 +95,7 @@
                         </div>
                         <div class="cv col-md-6">
                             <div class="cv">
-                                <a href="../download/CirrículoDavi.docx" download="Davi's Curriculum"><?php echo $downloadCV?></a>
+                                <a href="../download/Davi's Curriculum.pdf" download="Davi's Curriculum"><?php echo $downloadCV?></a>
                             </div>
                         </div>
                     </div>
