@@ -30,7 +30,7 @@ p {
     background: url("../img/night-sky-4k.png") no-repeat fixed center;
     background-size: cover;
     height: 720px;
-    padding: 200px 0 0 0;
+    padding: 100px 0 0 0;
 }
 
 .title-container .languages-change a {
@@ -64,7 +64,7 @@ p {
 }
 
 .title-container .about-button-container {
-    margin-top: 80px;
+    margin-top: 180px;
 }
 
 .title-container .about-button {
@@ -607,7 +607,7 @@ p {
 @media only screen and (max-width: 1199px) {
 
     .title-container .about-button-container {
-        margin-top: 60px;
+        margin-top: 160px;
     }
 
     .title-container ul {
@@ -633,7 +633,7 @@ p {
     }
 
     .title-container .about-button-container {
-        margin-top: 40px;
+        margin-top: 140px;
     }
 
     .title-container ul {
@@ -652,7 +652,7 @@ p {
         line-height: 16px;
     }
 
-    .contact-container .where-to-find p {
+    .contact-container .where-to-find .info p {
         font-size: 15px;
     }
 }
@@ -667,7 +667,7 @@ p {
     }
 
     .title-container .about-button-container {
-        margin-top: 95px;
+        margin-top: 195px;
     }
 
     .title-container ul {
@@ -707,7 +707,7 @@ p {
 
     }
 
-    .contact-container .where-to-find p {
+    .contact-container .where-to-find .info p {
         font-size: 17px;
     }
 
@@ -767,6 +767,10 @@ p {
 }
 
 @media only screen and (max-width: 306px) {
+
+    .title-container .about-button-container {
+        margin-top: 125px;
+    }
 
     .title-container ul {
         margin-top: 180px;

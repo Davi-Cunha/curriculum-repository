@@ -22,14 +22,9 @@ VALUES ('$name', '$email', '$subject', '$message')";
 
 $conn->query($sql);
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
 $conn->close();
 
+mail("davipccunhasilva@hotmail.com", "Thank you sending me this email", "That's was awesome!", "From: $email");
 
 header("location: ../index.php");
 
