@@ -5,13 +5,11 @@ package AED_1;
  * @author Davi Cunha Silva
  * @version 01
  */
-// ---------------------------------------------- dependencias
 
 import IO.*;
 
-// ---------------------------------------------- definicao da classe principal
+
 public class ED6 {
-    // ---------------------------------------------- definicao de metodo auxiliar
     public static void metodo01(int x) {
 
         if (x > 0) {
