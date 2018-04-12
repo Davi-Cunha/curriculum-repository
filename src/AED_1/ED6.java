@@ -6,6 +6,7 @@ package AED_1;
  * @version 01
  */
 
+
 import IO.*;
 
 public class ED6 {
