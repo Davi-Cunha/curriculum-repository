@@ -8,7 +8,6 @@ package AED_1;
 
 import IO.*;
 
-
 public class ED6 {
     public static void metodo01(int x) {
 
