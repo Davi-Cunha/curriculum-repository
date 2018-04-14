@@ -1,5 +1,3 @@
-package AED_1;
-
 /**
  * Exemplo0121
  *
@@ -10,11 +8,6 @@ package AED_1;
 import IO.*;
 
 public class ED7 {
-
-    /**
-     * guardar dados em arquivo,
-     * dada a quantidade deles.
-     */
     public static void metodo01() {
         int n;
         int k;
