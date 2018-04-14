@@ -5,7 +5,6 @@
  * @version 01
  */
 
-
 import IO.*;
 
 public class ED6 {
