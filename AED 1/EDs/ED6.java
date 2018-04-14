@@ -1,8 +1,7 @@
-package AED_1;
-/*
- * Exemplo0101
+/**
+ * ED6
  *
- * @author Davi Cunha Silva
+ * @author
  * @version 01
  */
 
