@@ -8,12 +8,12 @@
 import IO.*;
 
 public class ED7 {
+/*
     public static void metodo01() {
         int n;
         int k;
         String dado;
         FILE arquivo;
-
         IO.println("Guardar dados em arquivos");
         n = IO.readint("Quantos nomes? ");
         if (n <= 0) {
@@ -213,10 +213,150 @@ public class ED7 {
         IO.pause("Apertar ENTER para continuar.");
     }
 
+    public static void metodo11() {
+        String dado;
+        int valor;
+        FILE arquivo;
+        IO.println();
+        IO.println("Digite um numero = ");
+        arquivo = new FILE(FILE.OUTPUT, "IMPARES-DESCRESCENTE.TXT");
+        valor = IO.readint();
+        for (int k = valor; k >= 5; k--) {
+            if (k % 2 != 0) {
+                arquivo.println("" + k);
+            }
+        }
+        arquivo = new FILE(FILE.INPUT, "IMPARES-DESCRESCENTE.TXT");
+        dado = arquivo.read();
+        while (!arquivo.eof()) {
+            IO.println(dado);
+            dado = arquivo.read();
+        }
+        arquivo.close();
+
+
+    }
+
+    public static void metodo12() {
+        String dado;
+        int valor;
+        FILE arquivo;
+        IO.println();
+        IO.println("Digite um numero = ");
+        arquivo = new FILE(FILE.OUTPUT, "IMPARES-CRESCENTE.TXT");
+        valor = IO.readint();
+        for (int k = 0; k <= valor; k++) {
+            if (k >= 5 && k % 5 == 0) {
+                arquivo.println("" + k);
+            }
+        }
+        arquivo = new FILE(FILE.INPUT, "IMPARES-CRESCENTE.TXT");
+        dado = arquivo.read();
+        while (!arquivo.eof()) {
+            IO.println(dado);
+            dado = arquivo.read();
+        }
+        arquivo.close();
+    }
+
+    public static void metodo13() {
+        String dado;
+        int valor;
+        FILE arquivo;
+        IO.println();
+        IO.println("Digite um numero = ");
+        arquivo = new FILE(FILE.OUTPUT, "IMPARES-CRESCENTE-1.TXT");
+        valor = IO.readint();
+        for (int k = 0; k <= valor; k++) {
+            if ((k >= 5 && k % 5 == 0) || k == 1) {
+                arquivo.println("" + k);
+            }
+        }
+        arquivo = new FILE(FILE.INPUT, "IMPARES-CRESCENTE-1.TXT");
+        dado = arquivo.read();
+        while (!arquivo.eof()) {
+            IO.println(dado);
+            dado = arquivo.read();
+        }
+        arquivo.close();
+    }
+
+    public static void metodo14() {
+        String dado;
+        int valor;
+        double num;
+        FILE arquivo;
+        IO.println();
+        IO.println("Digite um numero = ");
+        arquivo = new FILE(FILE.OUTPUT, "IMPARES-FRACAO-PONTENCIA-DE-5.TXT");
+        valor = IO.readint();
+        for (int k = valor; k >= 0; k--) {
+            num = 1 / Math.pow(5, k);
+            if (num == 1) {
+                arquivo.println("1");
+            } else {
+                arquivo.println("1/" + (int) (Math.pow(5, k)));
+            }
+        }
+        arquivo = new FILE(FILE.INPUT, "IMPARES-FRACAO-PONTENCIA-DE-5.TXT");
+        dado = arquivo.read();
+        while (!arquivo.eof()) {
+            IO.println(dado);
+            dado = arquivo.read();
+        }
+        arquivo.close();
+    }
+
+    public static void metodo15() {
+        String palavra, dado;
+        FILE arquivo;
+        IO.println();
+        IO.println("Digite uma palavra = ");
+        arquivo = new FILE(FILE.OUTPUT, "LETRA-POR-LINHA.TXT");
+        palavra = IO.readln();
+        for (int i = palavra.length(); i > 0; i--) {
+            String n = palavra.substring(i - 1, i);
+            arquivo.println(n);
+        }
+        arquivo = new FILE(FILE.INPUT, "LETRA-POR-LINHA.TXT");
+        dado = arquivo.read();
+        while (!arquivo.eof()) {
+            IO.println(dado);
+            dado = arquivo.read();
+        }
+        arquivo.close();
+    }
+
+    public static void metodo16() {
+        String dado;
+        int soma = 0, num;
+        FILE arquivo;
+        IO.println("Digite um numero = ");
+        arquivo = new FILE(FILE.OUTPUT, "SOMA-DE-3-EM-3.TXT");
+        num = IO.readint();
+        for (int i = 0; i < num; i++) {
+            if (i >= 3 && i % 2 != 0) {
+                arquivo.println("" + soma);
+                soma += i;
+            }
+        }
+        arquivo = new FILE(FILE.INPUT, "SOMA-DE-3-EM-3.TXT");
+        dado = arquivo.read();
+        while (!arquivo.eof()) {
+            IO.println(dado);
+            dado = arquivo.read();
+        }
+    }
+*/
+
+    public static void metodo17() {
+
+    }
+
     public static void main(String[] args) {
         IO.println("EXEMPLO0121 - Programa em Java");
         IO.println("Autor: ________________________");
-        metodo01();
+/*      metodo01();
         metodo02();
         metodo03();
         metodo04();
@@ -226,6 +366,13 @@ public class ED7 {
         metodo08();
         metodo09();
         metodo10();
+        metodo11();
+        metodo12();
+        metodo13();
+        metodo14();
+        metodo15();
+        metodo16();*/
+        metodo17();
         IO.pause("Apertar ENTER para terminar.");
     }
 }
