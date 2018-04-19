@@ -8,7 +8,7 @@
 import IO.*;
 
 public class ED7 {
-/*
+
     public static void metodo01() {
         int n;
         int k;
@@ -347,7 +347,7 @@ public class ED7 {
             dado = arquivo.read();
         }
     }
-*/
+
 
     public static void metodo17() {
 
@@ -356,7 +356,7 @@ public class ED7 {
     public static void main(String[] args) {
         IO.println("EXEMPLO0121 - Programa em Java");
         IO.println("Autor: ________________________");
-/*      metodo01();
+        metodo01();
         metodo02();
         metodo03();
         metodo04();
@@ -371,7 +371,7 @@ public class ED7 {
         metodo13();
         metodo14();
         metodo15();
-        metodo16();*/
+        metodo16();
         metodo17();
         IO.pause("Apertar ENTER para terminar.");
     }
