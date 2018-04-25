@@ -6,10 +6,10 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 $clientIpAddress = getClientIpServer();
 
-$servername = "127.0.0.1";
-$username = "host";
-$password = "";
-$dbname = "curriculum";
+$servername = "fdb19.awardspace.net";
+$username = "2602684_curriculum";
+$password = "davi123pc";
+$dbname = "2602684_curriculum";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -41,7 +41,7 @@ function getClientIpServer() {
         $ipaddress = $_SERVER['REMOTE_ADDR'];
     else
         $ipaddress = 'UNKNOWN';
-
+ 
     return $ipaddress;
 }
 

@@ -252,11 +252,11 @@ p {
 }
 
 .about-container .skills-container .progress-bar-php {
-    width: 62.5%;
+    width: 75%;
 }
 
 .about-container .skills-container .progress-bar-javascript {
-    width: 25%;
+    width: 50%;
 }
 
 .about-container .skills-container .progress-bar-python {
@@ -575,6 +575,7 @@ p {
     background-color: #2f2d2d;
 }
 
+
 .footer-container p {
     line-height: 0;
     font-family: 'Lato', sans-serif;
@@ -601,7 +602,7 @@ p {
     font-size: 20px;
 }
 
-/*RESPONSIVE PORTUGUESE VERSION*/
+/*RESPONSIVE ENGLISH VERSION*/
 
 @media only screen and (max-width: 1199px) {
 
@@ -610,7 +611,7 @@ p {
     }
 
     .title-container ul {
-        margin-top: 166px;
+        margin-top: 180px;
     }
 
     .about-container .cv a {
@@ -640,17 +641,17 @@ p {
     }
 
     .about-container .hire-me a {
-        padding: 10px 31px 10px 31px;
+        padding: 10px 62px 10px 62px;
     }
 
     .about-container .cv a {
-        padding: 10px 4px 10px 4px;
+        padding: 10px 23px 10px 23px;
     }
 
     .resume-container .timeline-header p {
         line-height: 16px;
     }
-
+    
     .contact-container .where-to-find .info p {
         font-size: 15px;
     }
@@ -705,7 +706,7 @@ p {
         text-align: right;
 
     }
-
+    
     .contact-container .where-to-find .info p {
         font-size: 17px;
     }
@@ -765,28 +766,14 @@ p {
 
 }
 
-@media only screen and (max-width: 403px) {
-    .title-container ul {
-        margin-top: 110px;
+@media only screen and (max-width: 306px) {
+
+    .title-container .about-button-container {
+        margin-top: 125px;
     }
 
-}
-
-@media only screen and (max-width: 308px) {
     .title-container ul {
-        margin-top: 90px!important;
-    }
-
-    .title-container ul li {
-        margin-top: -20px
-    }
-
-}
-
-@media only screen and (max-width: 371px) {
-
-    .title-container ul {
-        margin-top: 110px;
+        margin-top: 180px;
     }
 
 }

@@ -144,6 +144,7 @@
         <en>Download CV</en>
         <pt-br>Baixar Currículo</pt-br>
     </downloadCV>
+  
 
     <!--RESUME HEADER-->
     <resumeHeaderH3>
@@ -183,8 +184,8 @@
         <pt-br>Julho de 2015 - Presente</pt-br>
     </workPTimelineHeaderOne>
     <workPTimelineHeaderTwo>
-        <en>October 2017 - December 2017</en>
-        <pt-br>Outubro de 2017 - Dezembro de 2017</pt-br>
+        <en>September 2017 - November 2017</en>
+        <pt-br>Setembro de 2017 - Novembro de 2017</pt-br>
     </workPTimelineHeaderTwo>
 
     <!--RESUME CONTAINER WORK OCCUPATION-->

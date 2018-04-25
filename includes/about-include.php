@@ -95,7 +95,7 @@
                         </div>
                         <div class="cv col-md-6">
                             <div class="cv">
-                                <a href="../download/Davi's Curriculum.pdf" download="Davi's Curriculum"><?php echo $downloadCV?></a>
+                                <a href="../download/CirrículoDavi.pdf" download="Davi's Curriculum"><?php echo $downloadCV?></a>
                             </div>
                         </div>
                     </div>
@@ -107,6 +107,7 @@
 
     </div>
 </section>
+
 
 
 

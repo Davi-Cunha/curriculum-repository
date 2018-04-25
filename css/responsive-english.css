@@ -252,11 +252,11 @@ p {
 }
 
 .about-container .skills-container .progress-bar-php {
-    width: 62.5%;
+    width: 75%;
 }
 
 .about-container .skills-container .progress-bar-javascript {
-    width: 25%;
+    width: 50%;
 }
 
 .about-container .skills-container .progress-bar-python {
@@ -651,7 +651,7 @@ p {
     .resume-container .timeline-header p {
         line-height: 16px;
     }
-
+    
     .contact-container .where-to-find .info p {
         font-size: 15px;
     }
@@ -706,7 +706,7 @@ p {
         text-align: right;
 
     }
-
+    
     .contact-container .where-to-find .info p {
         font-size: 17px;
     }

@@ -1,11 +1,11 @@
-<?php
+<?php 
 
 $clientIpAddress = getClientIpServer();
 
-$servername = "127.0.0.1";
-$username = "host";
-$password = "";
-$dbname = "curriculum";
+$servername = "fdb19.awardspace.net";
+$username = "2602684_curriculum";
+$password = "davi123pc";
+$dbname = "2602684_curriculum";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -20,6 +20,8 @@ VALUES ('$clientIpAddress')";
 $conn->query($sql);
 
 $conn->close();
+
+mail("davipccunhasilva@hotmail.com", "Thank you sending me this email", "That's was awesome!", "From: $email");
 
 function getClientIpServer() {
     $ipaddress = '';
@@ -37,9 +39,8 @@ function getClientIpServer() {
         $ipaddress = $_SERVER['REMOTE_ADDR'];
     else
         $ipaddress = 'UNKNOWN';
-
+ 
     return $ipaddress;
 }
-
 
 ?>

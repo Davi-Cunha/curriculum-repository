@@ -149,8 +149,3 @@ $contactCallMe = $xml->contactCallMe->$lang;
 /*FOOTER DESIGNED BY*/
 $designedBy = $xml->designedBy->$lang;
 
-
-
-
-
-
