@@ -38,11 +38,12 @@
                         <ul class="list-inline">
                             <?php
                             $fabs = array("facebook-f",
-                                "github", "linkedin-in",
+                                "github",
+                                "linkedin-in",
                                 "instagram",
                                 "bitbucket",
                                 "youtube");
-                            
+
                             $links = array("https://www.facebook.com/davi.cunha.71",
                                 "https://github.com/Davi-Cunha",
                                 "https://www.linkedin.com/in/davi-cunha-silva-2a3581108/",
