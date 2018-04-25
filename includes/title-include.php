@@ -37,8 +37,18 @@
                     <div class="text-center">
                         <ul class="list-inline">
                             <?php
-                            $fabs = array("facebook-f", "github", "linkedin-in", "instagram", "bitbucket", "youtube");
-                            $links = array("https://www.facebook.com/davi.cunha.71", "https://github.com/Davi-Cunha", "https://www.linkedin.com/in/davi-cunha-silva-2a3581108/", "https://www.instagram.com/davicunhasilva/", "https://bitbucket.org/MANGA-ESTRANHA/", "https://www.youtube.com/channel/UCpTobDUtJtMWwHBH4o7fL8w");
+                            $fabs = array("facebook-f",
+                                "github", "linkedin-in",
+                                "instagram",
+                                "bitbucket",
+                                "youtube");
+                            
+                            $links = array("https://www.facebook.com/davi.cunha.71",
+                                "https://github.com/Davi-Cunha",
+                                "https://www.linkedin.com/in/davi-cunha-silva-2a3581108/",
+                                "https://www.instagram.com/davicunhasilva/",
+                                "https://bitbucket.org/MANGA-ESTRANHA/",
+                                "https://www.youtube.com/channel/UCpTobDUtJtMWwHBH4o7fL8w");
 
                             for ($i = 0; $i < count($fabs); $i++) {
                                 echo "
