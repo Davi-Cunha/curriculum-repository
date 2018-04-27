@@ -1,2 +1,2 @@
-## This source code is online at: 
+## This source code is available at: 
 ### http://davicunhasilva.me/
