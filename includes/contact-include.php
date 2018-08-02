@@ -13,30 +13,20 @@
                     <form method="post" action="./includes/redirect.php">
                         <fieldset class="text-center">
                             <div class="form-field">
-                                <input type="text" id="name" placeholder="<?php echo $contactFormNamePlaceholder ?>" name="name"
-                                       onfocus="borderColorFunction(this)" required>
+                                <input class="input-contact" type="text" id="name" placeholder="<?php echo $contactFormNamePlaceholder ?>" name="name" required>
                             </div>
                             <div class="form-field">
-                                <input type="email" id="email" placeholder="<?php echo $contactFormEmailPlaceholder ?>" name="email"
-                                       onfocus="borderColorFunction(this)" required>
+                                <input class="input-contact" type="email" id="email" placeholder="<?php echo $contactFormEmailPlaceholder ?>" name="email" required>
                             </div>
                             <div class="form-field">
-                                <input type="text" id="subject" placeholder="<?php echo $contactFormSubjectPlaceholder ?>" name="subject"
-                                       onfocus="borderColorFunction(this)" required>
+                                <input class="input-contact" type="text" id="subject" placeholder="<?php echo $contactFormSubjectPlaceholder ?>" name="subject" required>
                             </div>
                             <div class="form-field">
-                                <textarea id="message" placeholder="<?php echo $contactFormMessagePlaceholder ?>" name="message"
-                                          onfocus="borderColorFunction(this)" required></textarea>
+                                <textarea class="input-contact" id="message" placeholder="<?php echo $contactFormMessagePlaceholder ?>" name="message" required></textarea>
                             </div>
                             <div class="form-field">
                                 <button type="submit" id="submit-button"><?php echo $contactFormSubmit ?></button>
                             </div>
-                            <script>
-                                function borderColorFunction(x) {
-                                    x.style.transition = "all .4s ease-in-out";
-                                    x.style.borderBottomColor = "#cc005f";
-                                }
-                            </script>
                         </fieldset>
                     </form>
                 </div>
@@ -76,4 +66,5 @@
             </div>
         </div>
     </div>
+    <script src="./js/main.js"></script>
 </section>
